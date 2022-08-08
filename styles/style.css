@@ -1,0 +1,135 @@
+/* oswald-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/oswald-v49-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/oswald-v49-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* oswald-500 - latin_cyrillic */
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/oswald-v49-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/oswald-v49-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* montserrat-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/montserrat-v25-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v25-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-500 - latin_cyrillic */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/montserrat-v25-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v25-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* common */
+
+  * {
+     box-sizing: border-box;
+  }
+
+  body {
+     margin: 0px;
+     font-family: 'Oswald',sans-serif ;
+  }
+
+  .container {
+     width: 1278px;
+     margin: 0 auto;
+     border: 1px solid red;
+  }
+
+  .img {
+     display: block;
+     max-width: 100%;
+  }
+
+  .btm-transparent {
+     background-color: rgba(255, 255, 255, 0.25);
+     
+  }
+
+ /* header */
+
+ .header {
+  background-color: skyblue;
+  padding: 33px 0;
+ }
+
+ .header-wrap {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 81px;
+     
+ }
+
+ /* product */
+
+ .product {
+   background-image: url(../pages/promo.jpg);
+   background-repeat: no-repeat;
+   border-color: gray;
+   background-position: center;
+   padding: 240px 81px;
+   color: #FFFFFF;
+   text-shadow: 1px 1px 2px #060D10;
+ }
+
+ .product-title  {
+  font-weight: 500px;
+  font-size: 60px;
+  line-height: 89px;
+ }
+
+ .product-text {
+   font-family: 'Montserrat', sans-serif ;
+   font-weight: 500;
+   font-size: 32px;
+   line-height: 39px;
+   text-align: center;
+   margin-top: 54px;
+ }
+
+ /* options */
+
+ .options {
+   
+ }
+
+ .options-title {
+   text-align: center;
+   font-weight: 500;
+   font-size: 48px;
+   line-height: 167%;
+ }
+
+ .options-list {
+   display: flex;
+   flex-wrap: wrap;
+   padding: auto;
+   margin: 0 15px;
+   list-style: none;
+ }
+
+ .options-item {
+   width: 33%;
+   padding: 15px;
+ }
+
+ 
+
